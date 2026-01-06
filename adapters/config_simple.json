@@ -1,0 +1,20 @@
+{
+    "ssi_consumer_id": "",
+    "ssi_consumer_secret": "",
+    "ssi_url": "https://fc-data.ssi.com.vn/",
+    "ssi_stream_url": "https://fc-datahub.ssi.com.vn/",
+    "ssi_auth_type": "Bearer",
+    "usernameEntrade": "",
+    "password": "",
+    "ctrader_client_id": "",
+    "ctrader_client_secret": "",
+    "ctrader_access_token": "",
+    "ctrader_refresh_token": "",
+    "ctrader_account_id": "45539348",
+    "ctrader_is_live": false,
+    "mt5": {
+        "server": "MetaQuotes-Demo",
+        "user": 5036292718,
+        "password": "_0AeXaFk"
+    }
+}

@@ -1,0 +1,31 @@
+pnftrading/
+├── adapters/                 # Data adapters for various external APIs
+│   ├── binance.py            # Binance adapter (Crypto)
+│   ├── bitfinex.py           # Bitfinex adapter (Crypto)
+│   ├── bybit.py              # Bybit adapter (Crypto)
+│   ├── coinbase.py           # Coinbase adapter (Crypto)
+│   ├── dnse.py               # DNSE adapter (Stock VN)
+│   ├── gateio.py             # Gate.io adapter (Crypto)
+│   ├── hermes.py             # Pyth Network Hermes adapter (Multi-asset)
+│   ├── kucoin.py             # KuCoin adapter (Crypto)
+│   ├── mexc.py               # MEXC adapter (Crypto)
+│   ├── okx.py                # OKX adapter (Crypto)
+│   ├── ssi.py                # SSI adapter (Stock VN)
+│   ├── vci.py                # VietCap (VCI) adapter (Stock VN)
+│   └── config.json           # Configuration for adapters (optional)
+├── lang/                     # Localization files
+│   ├── en.py
+│   └── vin.py
+├── routers/                  # FastAPI Routers
+│   ├── crypto.py             # Unified Crypto endpoints
+│   ├── pyth.py               # Unified Global Markets (Commodity, Forex, etc.) via Pyth
+│   └── stockvn.py            # Unified Vietnam Stock endpoints
+├── temp/                     # Deprecated/Unused files (Archived)
+│   ├── MQTT/
+│   ├── adapters/
+│   └── routers/
+├── main.py                   # Main FastAPI application entry point
+├── requirements.txt          # Python dependencies
+├── pyproject.toml            # Project configuration
+├── README.md                 # Project documentation
+└── Project structure.txt     # File structure overview

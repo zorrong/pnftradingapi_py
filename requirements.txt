@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+httpx
+requests
+paho-mqtt
+ssi-fc-data
+python-dotenv
+ctrader-open-api
+service_identity
+twisted
+flet
